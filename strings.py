@@ -3,3 +3,7 @@ def get_strings_methods():
   for method in dir(str):
     if "_" not in method:
       i += 1
+      print(i, method, sep= " : ")
+      
+      
+get_strings_methods()
