@@ -4,8 +4,8 @@
 #         if "_" not in method:
 #             i += 1
 #             print(i, method, sep=" : ")
-
-
+#
+#
 # get_strings_methods()
 
 # 1. capitalize
@@ -33,3 +33,7 @@ print(text5.encode(encoding="UTF-8", errors="strict"))
 # 6. endswith
 text6 = "Apple"
 print(text6.endswith("e"))
+
+# 7. expend-tads
+text7 = "Hello \tEveryone \tI'm DJ."
+print(text7.expandtabs(20))
