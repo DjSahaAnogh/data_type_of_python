@@ -1,8 +1,11 @@
 # Data Type of Python
-This repository contains all the data types of python and all methods of data types with examples. First I will talk about strings.
+This repository contains all the data types of python and all methods of data types with examples. These functions or methods will help you to build different types of short programmes
+or run operations on huge database. I hope I could teach you something 🤗🙂.
+
 
 ## Strings
-There are 47 methods or functions for strings. Now I am talking about all of them with examples.
+There are 47 methods or functions for strings. Strings are a group of characters(a, b, c, 1, 2, !, &). They are surrounded by quotes. They are often used to store names, passwords etc. 
+For example, "Ron", "Jil", "S*q15~" ect. They all are strings.
 
 
 ### 1. capitalize()
@@ -24,7 +27,8 @@ may look like this ⬇
 ``` python
 text1 = "heLLo"
 text1 = "HELlo"
-print(text.casefold())
+print(text1.casefold())
+print(text2.casefold())
 ```
 NOW run the code. You will see
 ``` pyhon
@@ -33,14 +37,26 @@ NOW run the code. You will see
 ```
 
 ### 3. center()
-This function will align the text center. We have give it a full-integer valu, so it suround the text with space or we giv it anything like "_". Suppose there is a variable named 'tex3' 
-text3 contains "DJ". Now when you print the variable 'text3', we will place a dot then we will call the center function by writing `center()`. The we will give a valu like '20' in the 
-brackets. Your code may look like this ⬇
+This function will align the text center. We have give it a full-integer valu, so it surround the text with space or we giv it anything like "_". Suppose there is a variable named 
+'tex3', text3 contains "DJ". Now when you print the variable 'text3', we will place a dot then we will call the center function by writing `center()`. Then we will give a valu like '20' 
+in the brackets. Your code may look like this ⬇
 ``` python
 text3 = "DJ"
-print(text.center(20, "_"))
+print(text3.center(20, "_"))
 ```
 NOW run the code. You will see
 ``` pyhon
 _ _ _ _ _ _ _ _ _ DJ _ _ _ _ _ _ _ _ _
+```
+
+### 4. count()
+This function will count the appearance of a string in a string. Suppose there is a variable named 'tex4', text4 contains "abc_abc_abc_abc_abc". Now when you print the variable 'text4', 
+we will place a dot then we will call the center function by writing `count()`.Then we will give the string in the brackets. Your code may look like this ⬇
+``` python
+text4 = "abc_abc_abc_abc_abc"
+print(text4.center(ab))
+```
+NOW run the code. You will see
+``` pyhon
+5
 ```
