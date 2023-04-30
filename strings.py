@@ -14,7 +14,7 @@ print(text.capitalize())
 
 # 2. case-fold
 text1 = "heLLo"
-text2 = "GUYs"
+text2 = "HELlo"
 print(text1.casefold())
 print(text2.casefold())
 
