@@ -50,3 +50,15 @@ print(text9)
 text10 = "Hello"
 index_num = text10.index("l")
 print(index_num)
+
+# 11. is_al_num
+text11 = "10"
+text12 = "Dj-03"
+print(text11.isalnum())
+print(text12.isalnum())
+
+# 12. is_a_pha
+text13 = "Helo"
+text14 = "10"
+print(text13.isalpha())
+print(text14.isalpha())
