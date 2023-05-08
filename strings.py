@@ -1,12 +1,12 @@
-# def get_strings_methods():
-#     i: int = 0
-#     for method in dir(str):
-#         if "_" not in method:
-#             i += 1
-#             print(i, method, sep=" : ")
-#
-#
-# get_strings_methods()
+def get_strings_methods():
+    i: int = 0
+    for method in dir(str):
+        if "_" not in method:
+            i += 1
+            print(i, method, sep=" : ")
+
+
+get_strings_methods()
 
 # 1. capitalize
 text = "hello EVERYONE"
@@ -37,3 +37,16 @@ print(text6.endswith("e"))
 # 7. expend-tads
 text7 = "Hello \tEveryone \tI'm DJ."
 print(text7.expandtabs(20))
+
+# 8. find
+text8 = "My name is DJ."
+print(text8.find("DJ"))
+
+# 9. format
+text9 = "{0}, My mane is {1}".format("Hello everyone!", "DJ")
+print(text9)
+
+# 10. index
+text10 = "Hello"
+index_num = text10.index("l")
+print(index_num)
