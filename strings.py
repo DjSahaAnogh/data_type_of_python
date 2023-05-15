@@ -62,3 +62,5 @@ text13 = "Helo"
 text14 = "10"
 print(text13.isalpha())
 print(text14.isalpha())
+
+# 13. is_a_scii
