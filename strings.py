@@ -64,4 +64,4 @@ print(text13.isalpha())
 print(text14.isalpha())
 
 # 13. is_a_scii
-text14 = ""
+text14 = "Hello"
