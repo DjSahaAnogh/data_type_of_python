@@ -58,7 +58,7 @@ print(text11.isalnum())
 print(text12.isalnum())
 
 # 12. is_a_pha
-text13 = "Helo"
+text13 = "Hello"
 text14 = "10"
 print(text13.isalpha())
 print(text14.isalpha())
