@@ -46,22 +46,32 @@ print(text8.find("DJ"))
 text9 = "{0}, My mane is {1}".format("Hello everyone!", "DJ")
 print(text9)
 
-# 10. index
+# 10. format_map
+age: dict = \
+    {"x": 45,
+     "y": 14}
+
+# 11. index
 text10 = "Hello"
 index_num = text10.index("l")
 print(index_num)
 
-# 11. is_al_num
+# 12. is_al_num
 text11 = "10"
-text12 = "Dj-03"
+text12 = "Dj03"
 print(text11.isalnum())
 print(text12.isalnum())
 
-# 12. is_a_pha
+# 13. is_alpha
 text13 = "Hello"
 text14 = "10"
 print(text13.isalpha())
 print(text14.isalpha())
 
-# 13. is_a_scii
+# 14. is_a_scii
 text14 = "Hello"
+text15 = "HeLLė"
+print(text14.isascii())
+print(text15.isascii())
+
+
