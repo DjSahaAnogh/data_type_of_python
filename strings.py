@@ -93,3 +93,39 @@ text20 = "七六五"
 print(text17.isdigit())
 print(text18.isdigit())
 print(text20.isnumeric())
+
+# 18. is_identifier
+text21 = "textSample"
+print(text21.isidentifier())
+
+# 19. is_lower
+text22 = "abc"
+print(text22.islower())
+
+# 20. is_printable
+text23 = "text"
+print(text23.isprintable())
+
+# 21. is_space
+text24 = "    "
+print(text24.isspace())
+
+# 22. is_title
+text25 = "The Text"
+print(text25.istitle())
+
+# 23. is_upper
+text26 = "THE"
+print(text26.isupper())
+
+# 24. join
+x = ["A", "B", "C"]
+print("_".join(x))
+
+# 25. l_just
+text27 = "_"
+print(text27.ljust(99, "_"))
+
+# 26. lower
+text28 = "FUN"
+print(text28.lower())
