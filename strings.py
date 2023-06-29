@@ -129,3 +129,18 @@ print(text27.ljust(99, "_"))
 # 26. lower
 text28 = "FUN"
 print(text28.lower())
+
+# 27. l strip
+text29 = "Some text."
+print(text29.lstrip('Some'))
+
+# 28. & 29. make_trans & translate
+text30 = "Hello, I'm Dj."
+table = text30.maketrans("I'm", "আমি")
+
+print(table)
+print(text30.translate(table))
+
+# 30. partition
+text31 = "a+b= c^2"
+print(text31.partition("="))
