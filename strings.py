@@ -123,7 +123,7 @@ x = ["A", "B", "C"]
 print("_".join(x))
 
 # 25. l_just
-text27 = "_"
+text27 = "A"
 print(text27.ljust(99, "_"))
 
 # 26. lower
@@ -135,8 +135,9 @@ text29 = "Some text."
 print(text29.lstrip('Some'))
 
 # 28. & 29. make_trans & translate
-text30 = "Hello, I'm Dj."
-table = text30.maketrans("I'm", "আমি")
+dic = {"I": "আমি"}
+text30 = "Hello, I Dj."
+table = text30.maketrans(dic)
 
 print(table)
 print(text30.translate(table))
@@ -144,3 +145,33 @@ print(text30.translate(table))
 # 30. partition
 text31 = "a+b= c^2"
 print(text31.partition("="))
+
+# 31. remove_prefix
+text32 = "Endanger"
+print(text32.removeprefix("En"))
+
+# 32. remove_suffix
+text33 = "Happiness"
+print(text33.removesuffix("ness"))
+
+# 33. replace
+text34 = "Remember to comment & comment!"
+print(text34.replace("comment", "subscribe", 1))
+
+# 34. r_find
+text35 = "An apple a day keeps a doctor away!"
+print(text35.rfind("a"))
+
+# 35. r_index
+text35 = "An apple a day keeps a doctor away!"
+print(text35.rindex("a"))
+
+# 36. r_just
+text36 = "A"
+print(text36.ljust(99, "_"))
+
+# 37.
+text37 = "a+b = c^2 = z^2"
+print(text37.rpartition("="))
+
+# 38.
