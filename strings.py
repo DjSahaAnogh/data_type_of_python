@@ -174,4 +174,29 @@ print(text36.ljust(99, "_"))
 text37 = "a+b = c^2 = z^2"
 print(text37.rpartition("="))
 
-# 38.
+# 38. & 39.
+text38 = "Hello everyone good morning."
+print(text38.rsplit(sep=" "))
+print(text38.split(maxsplit=2))
+
+# 40.
+text39 = "I'm Dj Dj."
+print(text39.rstrip("Dj"))
+
+# 41.
+text40 = "Remember to comment\n or else...\n"
+print(text40.splitlines(keepends=True))
+print(text40.splitlines())
+
+# 42.
+text41 = "Hello"
+print(text41.startswith("H"))
+print(text41.startswith("h"))
+
+# 43.
+text42 = "Hello everyone good morning"
+print(text42.strip("Hello"))
+
+# 44.
+text43 = "Hello everyone good morning"
+print(text43.swapcase())
